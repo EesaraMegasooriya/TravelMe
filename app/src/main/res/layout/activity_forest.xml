@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".Forest">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="411dp"
+        android:layout_height="610dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="232dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="232dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="175dp"
+                    android:layout_height="118dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img6"
+                    tools:layout_editor_absoluteX="20dp"
+                    tools:layout_editor_absoluteY="232dp" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:text="@string/northgate_jaffna"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="218dp"
+                    tools:layout_editor_absoluteY="282dp" />
+
+                <Button
+                    android:id="@+id/viewbtn2"
+                    android:layout_width="66dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/drkblue"
+                    android:rotation="-90"
+                    app:icon="@android:drawable/arrow_down_float"
+                    tools:layout_editor_absoluteX="345dp"
+                    tools:layout_editor_absoluteY="272dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="360dp">
+
+                <ImageView
+                    android:id="@+id/idph3"
+                    android:layout_width="179dp"
+                    android:layout_height="139dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img7"
+                    tools:layout_editor_absoluteX="20dp"
+                    tools:layout_editor_absoluteY="360dp" />
+
+                <TextView
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:text="@string/hotel_cassendra"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="225dp"
+                    tools:layout_editor_absoluteY="420dp" />
+
+                <Button
+                    android:id="@+id/viewbtn3"
+                    android:layout_width="66dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/drkblue"
+                    android:rotation="-90"
+                    app:icon="@android:drawable/arrow_down_float"
+                    tools:layout_editor_absoluteX="345dp"
+                    tools:layout_editor_absoluteY="411dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="509dp">
+
+                <ImageView
+                    android:id="@+id/idph4"
+                    android:layout_width="179dp"
+                    android:layout_height="139dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img8"
+                    tools:layout_editor_absoluteX="20dp"
+                    tools:layout_editor_absoluteY="509dp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:text="@string/villa_vajrapani"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="228dp"
+                    tools:layout_editor_absoluteY="569dp" />
+
+                <Button
+                    android:id="@+id/viewbtn5"
+                    android:layout_width="66dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/drkblue"
+                    android:rotation="-90"
+                    app:icon="@android:drawable/arrow_down_float"
+                    tools:layout_editor_absoluteX="345dp"
+                    tools:layout_editor_absoluteY="560dp" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/forest"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:backgroundTint="@color/drkblue"
+        android:text="Return Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+</androidx.constraintlayout.widget.ConstraintLayout>

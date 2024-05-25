@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".View">
+
+    <HorizontalScrollView
+        android:id="@+id/hhz1"
+        android:layout_width="407dp"
+        android:layout_height="258dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="39dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="400dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img6" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="400dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="410dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img10" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="400dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView401"
+                    android:layout_width="410dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img7"
+                    app:srcCompat="@drawable/img0" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/northgate_jaffna3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="391dp"
+        android:layout_height="209dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/handagedara_resort_and_spa_is_a_cozy_property_located_just_328_feet_from_the_mirissa_beach_guests_enjoy_free_wi_fi_access_at_all_areas_and_tastefully_furnished_guestrooms_set_in_the_south_of_sri_lanka_just_a_45_minute_drive_from_galle_city_handagedara_resort_and_spa_is_also_a_1_5_hour_drive_from_the_beautiful_sinharaja_rainforest_bandaranaike_international_airport_is_3_hours_away_by_car"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/drkblue"
+        android:text="@string/call_now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <Button
+        android:id="@+id/hmbtn"
+        android:layout_width="144dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/drkblue"
+        android:text="@string/prices"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+</androidx.constraintlayout.widget.ConstraintLayout>

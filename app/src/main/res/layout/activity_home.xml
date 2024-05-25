@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".Home" >
+
+    <Button
+        android:id="@+id/probtn"
+        android:layout_width="66dp"
+        android:layout_height="47dp"
+        android:backgroundTint="@color/drkblue"
+        app:icon="@drawable/profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="413dp"
+        android:layout_height="355dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="175dp"
+                    android:layout_height="118dp"
+                    android:layout_marginLeft="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img6" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/northgate_jaffna"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/viewbtn2"
+                    android:layout_width="66dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/drkblue"
+                    android:rotation="-90"
+                    app:icon="@android:drawable/arrow_down_float" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/idph3"
+                    android:layout_width="179dp"
+                    android:layout_height="139dp"
+                    android:layout_marginLeft="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img7" />
+
+                <TextView
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/hotel_cassendra"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/viewbtn3"
+                    android:layout_width="66dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/drkblue"
+                    android:rotation="-90"
+                    app:icon="@android:drawable/arrow_down_float" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/idph4"
+                    android:layout_width="179dp"
+                    android:layout_height="139dp"
+                    android:layout_marginLeft="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img8" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/villa_vajrapani"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/viewbtn5"
+                    android:layout_width="66dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/drkblue"
+                    android:rotation="-90"
+                    app:icon="@android:drawable/arrow_down_float" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/hhz1"
+        android:layout_width="409dp"
+        android:layout_height="168dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24000001">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView401"
+                    android:layout_width="410dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img7" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="@string/hotel_cassendra1"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="410dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img6" />
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="@string/northgate_jaffna1"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="400dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/imgnew" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="@string/villa_vajrapani1"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/hi_eesara"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/shadow"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="Let’s Explore Together"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="246dp"
+        android:layout_height="30dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="trty"
+            android:inputType="text"
+            android:text="@string/name" />
+    </SearchView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:shadowColor="@color/shadow"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="@string/trending_places"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528" />
+
+    <Button
+        android:id="@+id/brwsbtn"
+        android:layout_width="175dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/drkblue"
+        android:shadowColor="@color/shadow"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="@string/browse_places"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
